@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1502931067252" transient="false" version="3.0">
+<site enabled="true" policy="USER-EXCLUDE" updateable="true" url="platform:/base/">
+<feature id="org.eclipse.ecf.filetransfer.httpclient4.feature" url="features/org.eclipse.ecf.filetransfer.httpclient4.feature_3.13.2.v20160823-2221/" version="3.13.2.v20160823-2221">
+</feature>
+<feature id="com.github.eclipsecolortheme.feature" url="features/com.github.eclipsecolortheme.feature_1.0.0.201410260308/" version="1.0.0.201410260308">
+</feature>
+<feature id="org.eclipse.help" plugin-identifier="org.eclipse.help.base" url="features/org.eclipse.help_2.2.2.v20170301-0400/" version="2.2.2.v20170301-0400">
+</feature>
+<feature id="org.eclipse.pde" url="features/org.eclipse.pde_3.12.3.v20170301-0400/" version="3.12.3.v20170301-0400">
+</feature>
+<feature id="org.eclipse.ecf.filetransfer.httpclient4.ssl.feature" url="features/org.eclipse.ecf.filetransfer.httpclient4.ssl.feature_1.1.0.v20160823-2221/" version="1.1.0.v20160823-2221">
+</feature>
+<feature id="org.scalaide.worksheet.feature" plugin-identifier="org.scalaide.worksheet" url="features/org.scalaide.worksheet.feature_0.7.0.v-2_12-201706090917-9b473a6/" version="0.7.0.v-2_12-201706090917-9b473a6">
+</feature>
+<feature id="org.scala-ide.sdk.feature" plugin-identifier="org.scala-ide.sdk" url="features/org.scala-ide.sdk.feature_4.6.1.201706091120/" version="4.6.1.201706091120">
+</feature>
+<feature id="org.eclipse.jdt" url="features/org.eclipse.jdt_3.12.3.v20170301-0400/" version="3.12.3.v20170301-0400">
+</feature>
+<feature id="org.eclipse.equinox.p2.core.feature" url="features/org.eclipse.equinox.p2.core.feature_1.3.203.v20170131-1444/" version="1.3.203.v20170131-1444">
+</feature>
+<feature id="org.scala-ide.play2.feature" plugin-identifier="org.scala-ide.play2" url="features/org.scala-ide.play2.feature_0.10.0.v-2_12-201706090918-1bfb7e9/" version="0.10.0.v-2_12-201706090918-1bfb7e9">
+</feature>
+<feature id="org.eclipse.emf.common" url="features/org.eclipse.emf.common_2.12.0.v20160420-0247/" version="2.12.0.v20160420-0247">
+</feature>
+<feature id="org.eclipse.egit" url="features/org.eclipse.egit_4.6.1.201703071140-r/" version="4.6.1.201703071140-r">
+</feature>
+<feature id="org.eclipse.ecf.core.ssl.feature" url="features/org.eclipse.ecf.core.ssl.feature_1.1.0.v20160823-2221/" version="1.1.0.v20160823-2221">
+</feature>
+<feature id="org.eclipse.ecf.filetransfer.ssl.feature" url="features/org.eclipse.ecf.filetransfer.ssl.feature_1.1.0.v20160823-2221/" version="1.1.0.v20160823-2221">
+</feature>
+<feature id="org.eclipse.emf.ecore" url="features/org.eclipse.emf.ecore_2.12.0.v20160420-0247/" version="2.12.0.v20160420-0247">
+</feature>
+<feature id="org.eclipse.equinox.p2.user.ui" url="features/org.eclipse.equinox.p2.user.ui_2.2.203.v20170131-1444/" version="2.2.203.v20170131-1444">
+</feature>
+<feature id="org.scala-ide.zinc.feature" plugin-identifier="org.scala-ide.zinc.library" url="features/org.scala-ide.zinc.feature_4.6.1.201706090853/" version="4.6.1.201706090853">
+</feature>
+<feature id="org.scala-ide.sdt.weaving.feature" url="features/org.scala-ide.sdt.weaving.feature_4.6.1.v-2_12-201706090854-f511faf/" version="4.6.1.v-2_12-201706090854-f511faf">
+</feature>
+<feature id="org.eclipse.equinox.p2.extras.feature" url="features/org.eclipse.equinox.p2.extras.feature_1.2.203.v20170131-1444/" version="1.2.203.v20170131-1444">
+</feature>
+<feature id="org.maven.ide.eclipse.scala_feature" url="features/org.maven.ide.eclipse.scala_feature_0.6.0.201603042239/" version="0.6.0.201603042239">
+</feature>
+<feature id="org.eclipse.m2e.feature" plugin-identifier="org.eclipse.m2e.core" url="features/org.eclipse.m2e.feature_1.7.0.20160603-1933/" version="1.7.0.20160603-1933">
+</feature>
+<feature id="org.eclipse.rcp" url="features/org.eclipse.rcp_4.6.3.v20170301-0400/" version="4.6.3.v20170301-0400">
+</feature>
+<feature id="org.eclipse.ecf.core.feature" url="features/org.eclipse.ecf.core.feature_1.3.0.v20160823-2221/" version="1.3.0.v20160823-2221">
+</feature>
+<feature id="org.eclipse.cvs" url="features/org.eclipse.cvs_1.4.302.v20170301-0400/" version="1.4.302.v20170301-0400">
+</feature>
+<feature id="org.eclipse.jgit" url="features/org.eclipse.jgit_4.6.1.201703071140-r/" version="4.6.1.201703071140-r">
+</feature>
+<feature id="org.scala.tools.eclipse.search.feature" plugin-identifier="org.scala.tools.eclipse.search" url="features/org.scala.tools.eclipse.search.feature_0.6.0.v-2_12-201706090920-bba3114/" version="0.6.0.v-2_12-201706090920-bba3114">
+</feature>
+<feature id="org.eclipse.equinox.p2.rcp.feature" url="features/org.eclipse.equinox.p2.rcp.feature_1.2.203.v20170131-1444/" version="1.2.203.v20170131-1444">
+</feature>
+<feature id="org.eclipse.equinox.p2.discovery.feature" url="features/org.eclipse.equinox.p2.discovery.feature_1.0.401.v20160901-1335/" version="1.0.401.v20160901-1335">
+</feature>
+<feature id="org.scala-ide.scala212.source.feature" url="features/org.scala-ide.scala212.source.feature_4.6.1.201706090853/" version="4.6.1.201706090853">
+</feature>
+<feature id="org.eclipse.ecf.filetransfer.feature" url="features/org.eclipse.ecf.filetransfer.feature_3.13.2.v20160823-2221/" version="3.13.2.v20160823-2221">
+</feature>
+<feature id="org.scala-ide.sdt.scalatest.feature" plugin-identifier="org.scala-ide.sdt.scalatest" url="features/org.scala-ide.sdt.scalatest.feature_2.10.0.v-4-6-2_12-201704041333-e62e4ad/" version="2.10.0.v-4-6-2_12-201704041333-e62e4ad">
+</feature>
+<feature id="org.eclipse.epp.mpc" plugin-identifier="org.eclipse.epp.mpc.ui" url="features/org.eclipse.epp.mpc_1.5.4.v20170222-1941/" version="1.5.4.v20170222-1941">
+</feature>
+<feature id="org.eclipse.platform" url="features/org.eclipse.platform_4.6.3.v20170301-0400/" version="4.6.3.v20170301-0400">
+</feature>
+<feature id="org.scala-ide.sdt.feature" plugin-identifier="org.scala-ide.sdt.core" url="features/org.scala-ide.sdt.feature_4.6.1.v-2_12-201706090854-f511faf/" version="4.6.1.v-2_12-201706090854-f511faf">
+</feature>
+<feature id="org.scala-ide.scala212.feature" plugin-identifier="org.scala-lang.scala-library" url="features/org.scala-ide.scala212.feature_4.6.1.201706090853/" version="4.6.1.201706090853">
+</feature>
+<feature id="org.eclipse.e4.rcp" url="features/org.eclipse.e4.rcp_1.5.3.v20170228-0512/" version="1.5.3.v20170228-0512">
+</feature>
+</site>
+</config>

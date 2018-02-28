@@ -1,0 +1,9 @@
+#encoding=UTF-8
+#version=1
+org.scala-ide.zinc.compiler.bridge.source,1.0.0.X14v-201706090853-f511faf,file:/home/matheus/Downloads/eclipse/plugins/org.scala-ide.zinc.compiler.bridge.source_1.0.0.X14v-201706090853-f511faf.jar,-1,false
+org.scala-ide.zinc.compiler.bridge.source_2.10,1.0.0.X14v-201706090853-f511faf,file:/home/matheus/Downloads/eclipse/plugins/org.scala-ide.zinc.compiler.bridge.source_2.10_1.0.0.X14v-201706090853-f511faf.jar,-1,false
+org.scala-lang.modules.scala-parser-combinators.source,1.0.5,file:/home/matheus/Downloads/eclipse/plugins/org.scala-lang.modules.scala-parser-combinators.source_1.0.5.jar,-1,false
+org.scala-lang.modules.scala-xml.source,1.0.5,file:/home/matheus/Downloads/eclipse/plugins/org.scala-lang.modules.scala-xml.source_1.0.5.jar,-1,false
+org.scala-lang.scala-compiler.source,2.12.2.v20170412-161608-VFINAL-21d12e9,file:/home/matheus/Downloads/eclipse/plugins/org.scala-lang.scala-compiler.source_2.12.2.v20170412-161608-VFINAL-21d12e9.jar,-1,false
+org.scala-lang.scala-library.source,2.12.2.v20170412-161608-VFINAL-21d12e9,file:/home/matheus/Downloads/eclipse/plugins/org.scala-lang.scala-library.source_2.12.2.v20170412-161608-VFINAL-21d12e9.jar,-1,false
+org.scala-lang.scala-reflect.source,2.12.2.v20170412-161608-VFINAL-21d12e9,file:/home/matheus/Downloads/eclipse/plugins/org.scala-lang.scala-reflect.source_2.12.2.v20170412-161608-VFINAL-21d12e9.jar,-1,false

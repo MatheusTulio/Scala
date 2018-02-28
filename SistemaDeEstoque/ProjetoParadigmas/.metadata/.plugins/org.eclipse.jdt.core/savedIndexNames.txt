@@ -1,0 +1,21 @@
+INDEX VERSION 1.130+/home/matheus/Documents/shablau/SistemaDeEstoque/ProjetoParadigmas/.metadata/.plugins/org.eclipse.jdt.core
+821608291.index
+3485262699.index
+2361728526.index
+1628687906.index
+923630092.index
+1089239932.index
+3883508318.index
+2253745042.index
+2557743584.index
+2154233449.index
+3539432263.index
+2744878784.index
+2359322674.index
+1533529368.index
+925982370.index
+813341167.index
+3066711521.index
+3530540584.index
+502732891.index
+3512161136.index

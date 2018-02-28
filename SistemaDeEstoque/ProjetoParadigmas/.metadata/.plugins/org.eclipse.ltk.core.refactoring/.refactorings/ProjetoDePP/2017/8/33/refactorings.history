@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ProjetoDePP/src/SistemaDeEstoque_Matheus_Tulio_11053015.scala&apos; to &apos;SistemaDeEstoque.scala&apos;" description="Rename resource &apos;SistemaDeEstoque_Matheus_Tulio_11053015.scala&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/SistemaDeEstoque_Matheus_Tulio_11053015.scala" name="SistemaDeEstoque.scala" stamp="1503019944760" updateReferences="true"/>
+</session>

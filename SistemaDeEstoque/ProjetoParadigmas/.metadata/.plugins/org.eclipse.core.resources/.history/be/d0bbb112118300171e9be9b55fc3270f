@@ -1,0 +1,84 @@
+import akka.actor._
+
+object ProjetoParadigmas {
+  case class Listas(l : List[Int])
+  case object MensagemLoja 
+  case object MensagemEstoque
+  case object AbriuLoja
+  case object ProximoCliente
+  
+  
+  class Estoque extends Actor {
+    def receive = {
+      case MensagemLoja => 
+        Thread.sleep(8000)
+        sender ! MensagemEstoque
+    }
+  }
+  
+  class Loja (estoque: ActorRef) extends Actor {
+    private var numProdutos : Int = 100
+    
+    def receive = {
+      case Listas(l) =>
+        println("Atendendo Cliente ...")
+        if (l.length < 4)
+          Thread.sleep(1500)
+        else if(l.length < 8)
+          Thread.sleep(3000)
+         else
+           Thread.sleep(4500)
+        this.setNumProdutos(this.getNumProdutos() - l.foldLeft(0)(_ + _))
+        if(this.getNumProdutos() < 25)
+          estoque ! MensagemLoja
+        else if (this.getNumProdutos() <= 10){
+          while(this.getNumProdutos() >= 75){
+            println("Esperando produtos do estoque ...")
+            Thread.sleep(1500)
+          }
+        }
+        println("Cliente atendido")
+        sender ! ProximoCliente
+            
+      case MensagemEstoque =>
+        println("Os produtos chegaram !")
+        this.setNumProdutos(100)
+    }
+    
+    def setNumProdutos(n :Int) : Unit = {
+      this.numProdutos = n
+    }
+    
+    def getNumProdutos() : Int = {
+      this.numProdutos
+    }
+    
+  }
+  
+  class Consumidor(loja: ActorRef) extends Actor {
+    var senha : Int = 1
+    def receive = {
+      case AbriuLoja =>
+        println("Senha para atendimento: "+ senha)
+        loja ! Listas(List(0,1,2,3))
+        senha = senha + 1
+      
+      case ProximoCliente =>
+        senha = senha + 1
+        Thread.sleep(1000) // Aguarda o próximo cliente chegar
+        println("Senha para atendimento : "+ senha)
+        loja ! Listas(List(Math.random()%9, Math.random()%9, Math.random()%9, Math.random()%9))
+    }
+  }
+  
+  def main (args : Array[String]) : Unit = {
+    val system = ActorSystem("System")
+    val estoque = system.actorOf(Props[Estoque], name = "estoque")
+    val loja1 = system.actorOf(Props(new Loja(estoque)),name = "loja1")
+    val loja2 = system.actorOf(Props(new Loja(estoque)),name = "loja2")
+    val consumidor1 = system.actorOf(Props(new Consumidor(loja1)), name = "consumidor1")
+    val consumidor2 = system.actorOf(Props(new Consumidor(loja2)), name = "consumidor2")
+    consumidor1 ! AbriuLoja
+    consumidor2 ! AbriuLoja
+   }
+}

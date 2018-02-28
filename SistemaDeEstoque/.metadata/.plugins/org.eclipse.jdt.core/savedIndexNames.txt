@@ -1,0 +1,5 @@
+INDEX VERSION 1.130+/home/matheus/Documents/shablau/SistemaDeEstoque/.metadata/.plugins/org.eclipse.jdt.core
+2361728526.index
+2744878784.index
+83406040.index
+923630092.index

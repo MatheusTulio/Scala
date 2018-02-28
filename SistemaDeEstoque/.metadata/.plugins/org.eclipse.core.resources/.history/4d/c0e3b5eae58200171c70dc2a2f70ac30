@@ -1,0 +1,32 @@
+import akka.actor._
+
+object Estoque {
+  case object Act 
+  
+  class SillyActor extends Actor {
+    def receive = {
+      case Act => for (i <- 1 to 5){
+        println("acting")
+        Thread.sleep(1000)
+      }
+    }
+  }
+  
+  class SeriousActor extends Actor {
+    def receive = {
+      case Act => for(i <- 1 to 3){
+        println("to be or not to be")
+        Thread.sleep(2500)
+      }
+    }
+  }
+  
+  def main (args: Array[String]): Unit = {
+    
+    val system = ActorSystem("System")
+    val silly = system.actorOf(Props[SillyActor], "SillyActor")
+    val serious = system.actorOf(Props[SeriousActor], "SeriousActor")
+    silly ! Act
+    serious ! Act
+  }
+}
